@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/woodimage"
+        android:layout_width="784dp"
+        android:layout_height="460dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.434"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/cae178cb10704a4ba0fa83d4c83919cd" />
+
+    <ImageView
+        android:id="@+id/scrollimage"
+        android:layout_width="420dp"
+        android:layout_height="914dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/_408965_large_scroll_wallpaper_1668x2210_smartphone" />
+
+    <Button
+        android:id="@+id/conbtn1"
+        android:layout_width="155dp"
+        android:layout_height="100dp"
+        android:background="#AE2F08"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="Continue"
+        android:textColor="#000000"
+        android:textColorHighlight="#00FFFFFF"
+        android:textColorHint="#FFEB3B"
+        android:textColorLink="#FFEB3B"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.927"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/clrbtn2"
+        android:layout_width="163dp"
+        android:layout_height="108dp"
+        android:backgroundTint="#983503"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="Clear"
+        android:textColor="#000000"
+        android:textColorHighlight="#00FFFFFF"
+        android:textColorHint="#FFEB3B"
+        android:textColorLink="#FFEB3B"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.938" />
+
+    <TextView
+        android:id="@+id/dcrinfo"
+        android:layout_width="332dp"
+        android:layout_height="294dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:guidelineUseRtl="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.478" />
+
+    <EditText
+        android:id="@+id/agein1"
+        android:layout_width="165dp"
+        android:layout_height="66dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:fontFamily="@font/akaya_telivigala"
+        android:foregroundTint="#000000"
+        android:inputType="text"
+        android:text="Input Age"
+        android:textColor="#050505"
+        android:textIsSelectable="false"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15"
+        tools:ignore="HardcodedText,LabelFor" />
+
+    <TextView
+        android:id="@+id/preset1"
+        android:layout_width="156dp"
+        android:layout_height="151dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="Enter an Age from 20-100 years old and press continue to be welcomed with a historical figure which passed away at that age."
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
